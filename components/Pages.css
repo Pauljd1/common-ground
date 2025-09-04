@@ -1,0 +1,452 @@
+/* Page-specific styles for About, Team, and Get Involved pages */
+
+/* Page Hero Section */
+.page-hero {
+  padding: 8rem 0 4rem;
+  background: var(--sand);
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: 3rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  font-family: var(--font-headings);
+  font-weight: 700;
+}
+
+.page-hero-description {
+  font-size: 1.3rem;
+  color: var(--color-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Content Section (About Page) */
+.content-section {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.content-main h2 {
+  font-size: 2.2rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-family: var(--font-headings);
+}
+
+.content-main h2:first-child {
+  margin-top: 0;
+}
+
+.content-main p {
+  font-size: 1.1rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Values Grid */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.value-item {
+  background: var(--sand);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--green);
+}
+
+.value-item h3 {
+  font-size: 1.3rem;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-headings);
+}
+
+.value-item p {
+  color: var(--color-muted);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Sidebar */
+.content-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+  border: 1px solid rgba(90, 124, 90, 0.1);
+}
+
+.sidebar-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.sidebar-card h3 {
+  font-size: 1.3rem;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-headings);
+}
+
+.sidebar-card p {
+  color: var(--color-muted);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Future Vision / Research Approach Section */
+.future-vision {
+  padding: 4rem 0;
+  background: var(--sand);
+}
+
+.future-vision h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--green);
+  margin-bottom: 3rem;
+  font-family: var(--font-headings);
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.vision-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.vision-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(90, 124, 90, 0.15);
+}
+
+.vision-item h3 {
+  font-size: 1.5rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  font-family: var(--font-headings);
+}
+
+.vision-item p {
+  color: var(--color-muted);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Get Involved Page Styles */
+.involvement-options {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.involvement-options h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  font-family: var(--font-headings);
+}
+
+.involvement-options > p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-muted);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.option-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(90, 124, 90, 0.1);
+}
+
+.option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(90, 124, 90, 0.15);
+}
+
+.option-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.option-card h3 {
+  font-size: 1.5rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  font-family: var(--font-headings);
+}
+
+.option-card p {
+  color: var(--color-muted);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: 4rem 0;
+  background: var(--sand);
+}
+
+.contact-form-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  font-family: var(--font-headings);
+}
+
+.contact-form-section > p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-muted);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--green);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e1e1e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--green);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form .btn {
+  width: 100%;
+  padding: 1rem;
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+  background: var(--earth);
+}
+
+/* Contact Info */
+.contact-info {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  color: var(--green);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-headings);
+}
+
+.contact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-item .icon {
+  font-size: 1.5rem;
+  color: var(--green);
+  width: 30px;
+  text-align: center;
+}
+
+.contact-item div h4 {
+  font-size: 1.1rem;
+  color: var(--green);
+  margin-bottom: 0.25rem;
+  font-family: var(--font-headings);
+}
+
+.contact-item div p {
+  color: var(--color-muted);
+  margin: 0;
+}
+
+/* Form Success Message */
+#form-success {
+  display: none;
+  background: #d4edda;
+  color: #155724;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .page-hero {
+    padding: 6rem 0 3rem;
+  }
+  
+  .page-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .form-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .vision-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .options-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .page-hero {
+    padding: 5rem 0 2rem;
+  }
+  
+  .page-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .page-hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .content-section,
+  .involvement-options,
+  .contact-form-section,
+  .future-vision {
+    padding: 3rem 0;
+  }
+  
+  .content-main h2,
+  .involvement-options h2,
+  .contact-form-section h2,
+  .future-vision h2 {
+    font-size: 2rem;
+  }
+  
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .option-card,
+  .vision-item {
+    padding: 1.5rem;
+  }
+  
+  .contact-form,
+  .contact-info {
+    padding: 1.5rem;
+  }
+}
