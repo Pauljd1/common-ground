@@ -1,7 +1,7 @@
 /* Feature Cards Section */
 .features {
   padding: 80px 0;
-  background-color: #f8f6f2;
+  background-color: var(--sand);
 }
 
 .container {
@@ -13,11 +13,11 @@
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #5a7c5a;
+  color: var(--green);
   margin-bottom: 50px;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.5px;
-  font-family: "Georgia", serif;
+  font-family: var(--font-headings);
 }
 
 .features-grid {
@@ -31,10 +31,10 @@
   background: #ffffff;
   border-radius: 12px;
   padding: 40px 30px;
-  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+  box-shadow: 0 8px 25px rgba(14, 58, 42, 0.08);
   text-align: center;
   transition: all 0.3s ease;
-  border: 1px solid rgba(90, 124, 90, 0.1);
+  border: 1px solid rgba(14, 58, 42, 0.08);
 }
 
 .feature-card:hover {
@@ -71,15 +71,15 @@
 
 .feature-card h3 {
   font-size: 1.8rem;
-  color: #5a7c5a;
+  color: var(--green);
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.5px;
-  font-family: "Georgia", serif;
+  font-family: var(--font-headings);
 }
 
 .feature-card p {
-  color: #666;
+  color: var(--color-muted);
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 0;
