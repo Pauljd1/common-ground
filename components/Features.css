@@ -1,0 +1,121 @@
+/* Feature Cards Section */
+.features {
+  padding: 80px 0;
+  background-color: #f8f6f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #5a7c5a;
+  margin-bottom: 50px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-family: "Georgia", serif;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 25px rgba(90, 124, 90, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(90, 124, 90, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(90, 124, 90, 0.15);
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+  background: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  position: relative;
+  overflow: hidden;
+  border: 2.5px solid var(--green);
+  box-sizing: border-box;
+}
+
+.feature-icon img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+  background: none;
+  z-index: 2;
+}
+
+.feature-card h3 {
+  font-size: 1.8rem;
+  color: #5a7c5a;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-family: "Georgia", serif;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 30px 20px;
+  }
+
+  .feature-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .feature-card p {
+    font-size: 1rem;
+  }
+
+  .feature-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+}

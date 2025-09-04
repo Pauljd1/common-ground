@@ -1,0 +1,46 @@
+/* CTA Section Styles */
+.cta-section {
+  background: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 2.2rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  font-family: var(--font-headings);
+}
+
+.cta-content p {
+  color: var(--earth);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-content .btn {
+  font-size: 1.15rem;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 8px rgba(56, 102, 65, 0.08);
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.cta-content .btn:hover {
+  background: var(--earth);
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(141, 103, 72, 0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 600px) {
+  .cta-section {
+    padding: 2.5rem 0;
+  }
+  .cta-content h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,123 @@
+/* About Us Section - Rustic, Responsive, and Cohesive Style */
+.about-section {
+  background: #fff;
+  padding: 4rem 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1 1 350px;
+  min-width: 280px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.about-content {
+  flex: 2 1 400px;
+  min-width: 260px;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-title {
+  font-family: var(--font-headings);
+  font-size: 2.5rem;
+  color: var(--earth);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.about-subtitle {
+  font-family: var(--font-headings);
+  font-size: 1.5rem;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.about-description {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  background: var(--green);
+  color: white;
+  border-color: var(--green);
+  font-size: 1.15rem;
+  box-shadow: 0 2px 8px rgba(56, 102, 65, 0.08);
+}
+
+.about-btn:hover {
+  background: #1a3318;
+  border-color: #1a3318;
+  color: white;
+  box-shadow: 0 6px 24px rgba(56, 102, 65, 0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+  }
+  .about-image,
+  .about-content {
+    max-width: 100%;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 2.5rem 0;
+  }
+  .about-title {
+    font-size: 1.5rem;
+  }
+  .about-subtitle {
+    font-size: 1.1rem;
+  }
+  .about-description {
+    font-size: 1rem;
+  }
+  .about-btn {
+    width: 100%;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+  }
+}

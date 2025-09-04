@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+/* Component Stylesheets */
+
+@import url("./components/Navigation.css");
+@import url("./components/Hero.css");
+@import url("./components/Features.css");
+@import url("./components/AboutUs.css");
+
+@import url("./components/CtaSection.css");
+@import url("./components/Footer.css");
+
+/* Root Variables */
+
+:root {
+  --earth: #8d6748;
+  --sand: #f5e9da;
+  --mustard: #e1b84b;
+  --green: #386641;
+  --light-green: #a7c957;
+  --color-text: #222;
+  --color-muted: #6b6b6b;
+  --font-headings: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headings);
+  font-weight: 700;
+}
