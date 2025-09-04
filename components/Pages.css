@@ -13,6 +13,8 @@
   margin-bottom: 1rem;
   font-family: var(--font-headings);
   font-weight: 700;
+}
+
 .page-hero h1::after {
   content: "";
   display: block;
@@ -21,8 +23,6 @@
   margin: 12px auto 0;
   background: var(--mustard);
   border-radius: 2px;
-}
-
 }
 
 .page-hero-description {

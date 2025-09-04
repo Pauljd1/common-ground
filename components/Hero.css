@@ -52,7 +52,6 @@
   justify-content: center;
 }
 
-.hero-actions .btn {
 .hero-actions .btn-primary {
   background: var(--mustard);
   color: #1a1a1a;
@@ -64,6 +63,7 @@
   border: 2px solid #f5f2eb;
 }
 
+.hero-actions .btn {
   font-size: 1.05rem;
   padding: 0.9rem 1.6rem;
   border-radius: 999px;
