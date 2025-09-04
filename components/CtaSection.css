@@ -22,16 +22,16 @@
   font-size: 1.15rem;
   padding: 1rem 2.5rem;
   border-radius: 8px;
-  background: var(--green);
-  color: #fff;
+  background: var(--mustard);
+  color: #1a1a1a;
   border: none;
   box-shadow: 0 2px 8px rgba(56, 102, 65, 0.08);
   transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
 }
 
 .cta-content .btn:hover {
-  background: var(--earth);
-  color: #fff;
+  background: #b48c3e;
+  color: #0e3a2a;
   box-shadow: 0 6px 24px rgba(141, 103, 72, 0.18);
   transform: translateY(-2px) scale(1.03);
 }

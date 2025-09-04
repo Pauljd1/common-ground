@@ -38,13 +38,13 @@
 }
 
 .footer-section ul li a {
-  color: var(--earth);
+  color: var(--green);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footer-section ul li a:hover {
-  color: var(--green);
+  color: var(--mustard);
 }
 
 .footer-bottom {
