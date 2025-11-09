@@ -16,12 +16,17 @@
 
 :root {
   --earth: #8d6748;
-  --sand: #f5e9da;
+  --sand: #cbb89a; /* UPDATED for better logo contrast */
   --mustard: #e1b84b;
-  --green: #386641;
-  --light-green: #a7c957;
-  --color-text: #222;
+  --green: #5daa5b;
+  --light-green: #9dda7a; /* logo color */
+  --deep-forest: #2f4b3a;
+
+  --color-text: #1f1f1f;
   --color-muted: #6b6b6b;
+  --color-bg: #faf9f7;
+  --color-bg-alt: #f4f1ec;
+
   --font-headings: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
 }
